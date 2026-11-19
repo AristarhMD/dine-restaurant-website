@@ -40,7 +40,7 @@
 }
 
 @utility preset-4-r {
-  @apply font-normal text-[2rem] leading-[150%] tracking-normal;
+  @apply font-normal text-[1.25rem] leading-[150%] tracking-normal;
 }
 
 @utility preset-5 {
@@ -65,4 +65,16 @@
 
 @utility secType {
   @apply preset-3-b md:preset-2-b;
+}
+
+.btn {
+  @apply preset-5 cursor-pointer uppercase py-6 px-14 border text-neutral-0 bg-transparent hover:text-neutral-950 hover:bg-neutral-0  active:text-neutral-950 active:bg-neutral-0;
+}
+
+.btnTOne {
+  @apply border-neutral-0;
+}
+
+.btnTTwo {
+  @apply border-neutral-950;
 }
