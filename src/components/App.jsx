@@ -1,4 +1,5 @@
 import HeroSection from "./mainpage/HeroSection";
+import MenuSection from "./mainpage/MenuSection";
 import Presentation from "./mainpage/Presentation";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <HeroSection />
       <Presentation />
+      <MenuSection />
     </>
   );
 }
