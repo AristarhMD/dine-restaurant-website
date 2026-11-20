@@ -19,7 +19,7 @@ export default function Presentation() {
     <section className="relative pb-30 xl:pb-0 overflow-x-clip">
       {/* Background components */}
       <Rectangle style="hidden md:block md:absolute top-49 xl:top-80 -ml-[50%] xl:-ml-[37.84%] -z-1 rounded-tr-[100px]" />
-      <Rectangle style="hidden md:block md:absolute bottom-0 md:bottom-20 ml-[50%] xl:ml-[37.84%] -z-1 rounded-tl-[100px]" />
+      <Rectangle style="hidden md:block md:absolute bottom-0 xl:bottom-20 ml-[50%] xl:ml-[37.84%] -z-1 rounded-tl-[100px]" />
 
       {/* Main content */}
       <div className="mx-auto w-[87.2%] md:w-[74.60%] xl:w-[77.08%] -mt-18 md:-mt-24 xl:-mt-17.5 flex flex-col gap-26.5 md:gap-30">
@@ -50,7 +50,7 @@ export default function Presentation() {
                 <br />
                 for all the family
               </h2>
-              <p className="firtType text-slate-800">
+              <p className="firstType text-slate-800">
                 Our relaxed surroundings make dining with us a great experience
                 for everyone. We can even arrange a tour of the farm before your
                 meal.
@@ -76,7 +76,7 @@ export default function Presentation() {
               loading="lazy"
               className="shadow-presentation object-cover object-center xl:h-180 xl:basis-135 relative xl:z-2"
             />
-            <LinesBlock style="absolute z-2 bottom-14 -right-14.5 xl:bottom-90.5 xl:-right-28.5" />
+            <LinesBlock style="invisible md:visible absolute z-2 bottom-14 -right-14.5 xl:bottom-90.5 xl:-right-28.5" />
           </picture>
 
           <div className="mx-auto flex flex-col items-center justify-center gap-8 md:gap-10 md:w-[79.75%] md:max-w-115 xl:gap-12 xl:justify-start xl:max-w-111.25 xl:ml-0">
@@ -87,7 +87,7 @@ export default function Presentation() {
                 <br />
                 sourced food
               </h2>
-              <p className="firtType text-slate-800">
+              <p className="firstType text-slate-800">
                 All our ingredients come directly from our farm or local
                 fishery. So you can be sure that you’re eating the freshest,
                 most sustainable food.

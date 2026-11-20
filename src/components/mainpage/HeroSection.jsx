@@ -31,7 +31,7 @@ export default function HeroSection() {
             <br />
             since 1989
           </p>
-          <p className="firtType mb-12 md:mb-14 xl:mb-10 xl:w-111.25 ">
+          <p className="firstType mb-12 md:mb-14 xl:mb-10 xl:w-111.25 ">
             Experience our seasonal menu in beautiful country surroundings. Eat
             the freshest produce from the comfort of our farmhouse.
           </p>
