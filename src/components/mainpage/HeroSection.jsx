@@ -6,7 +6,7 @@ import Button from "../reusable/Button.jsx";
 export default function HeroSection() {
   return (
     <section className="h-187 md:h-248 xl:h-205 relative text-neutral-0 z-1 md:z-0">
-      <div className="mx-auto w-[87.2%] md:max-w-135 text-center xl:text-left xl:ml-41.25">
+      <div className="mx-auto w-[87.2%] md:max-w-135 text-center xl:text-left xl:ml-[11.46%]">
         <picture>
           <source media="(min-width:1280px )" srcSet={heroDesk} />
           <source media="(min-width:768px )" srcSet={heroTab} />
