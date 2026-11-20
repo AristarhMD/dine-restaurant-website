@@ -13,6 +13,7 @@
   --color-slate-500: #5c6779;
   --color-red-500: #b54848;
   --color-stone-500: #9e7f66;
+  --shadow-presentation: 0 75px 100px -50px #38425580;
 }
 
 @utility preset-1 {
@@ -78,3 +79,5 @@
 .btnTTwo {
   @apply border-neutral-950;
 }
+
+/*  */
