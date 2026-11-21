@@ -1,3 +1,5 @@
+import { Fragment } from "react";
+
 export default function Dishes() {
   const data = [
     {
@@ -30,12 +32,12 @@ export default function Dishes() {
       {data.map((dish, idx) => {
         if (idx < data.length - 1) {
           return (
-            <>
+            <Fragment key={idx}>
               <article className="flex flex-col items-center gap-10 md:gap-15.5 md:flex-row">
                 <picture className="relative">
                   <source
                     media="(min-width:768px )"
-                    srcset={dish.tabletImgPath}
+                    srcSet={dish.tabletImgPath}
                   />
                   <img
                     src={dish.mobileImgPath}
@@ -53,14 +55,17 @@ export default function Dishes() {
                 </div>
               </article>
               <hr className="w-full border-neutral-0/15 mt-5 mb-6 md:my-6" />
-            </>
+            </Fragment>
           );
         }
 
         return (
-          <article className="flex flex-col items-center gap-10 md:gap-15.5 md:flex-row">
+          <article
+            className="flex flex-col items-center gap-10 md:gap-15.5 md:flex-row"
+            key={idx}
+          >
             <picture className="relative">
-              <source media="(min-width:768px )" srcset={dish.tabletImgPath} />
+              <source media="(min-width:768px )" srcSet={dish.tabletImgPath} />
               <img
                 src={dish.mobileImgPath}
                 alt={dish.imgAlt}

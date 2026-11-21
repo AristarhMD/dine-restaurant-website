@@ -79,3 +79,11 @@
 .btnTTwo {
   @apply border-neutral-950;
 }
+
+.btnTThree {
+  @apply bg-neutral-950;
+}
+
+.active-slide {
+  @apply opacity-100 pb-2.5 md:pb-0 relative md:after:mt-5 xl:after:mt-0 after:content-[''] after:absolute after:-z-1 after:h-px after:w-12 xl:after:w-23.75 after:bg-stone-500 after:top-full xl:after:top-1/2 after:left-1/2 xl:after:left-auto xl:after:right-full xl:after:mr-8 after:-translate-x-1/2 xl:after:translate-x-0 xl:after:-translate-y-1/2;
+}
