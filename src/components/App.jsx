@@ -1,8 +1,9 @@
-import CTASection from "./mainpage/ctaSection";
 import HeroSection from "./mainpage/HeroSection";
 import MenuSection from "./mainpage/MenuSection";
 import Presentation from "./mainpage/Presentation";
 import SliderSection from "./mainpage/SliderSection";
+import CTASection from "./mainpage/CtaSection.jsx";
+import Footer from "./mainpage/Footer.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <MenuSection />
       <SliderSection />
       <CTASection />
+      <Footer />
     </>
   );
 }
