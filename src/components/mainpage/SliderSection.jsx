@@ -95,16 +95,18 @@ export default function SliderSection() {
 
         <div className="md:w-[66.32%] xl:w-full md:mx-auto xl:ml-0 flex flex-col items-center xl:items-start xl:row-start-1 xl:pt-18.25 overflow-hidden">
           <div
-            className="flex "
+            className="flex items-center shrink-0 "
             style={{ transform: `translateX(-${activeSlide * 100}%)` }}
           >
             {data.map((slide, idx) => (
               <div
                 key={idx}
-                className="text-slate-800 text-center xl:text-left flex flex-col gap-3 md:gap-5 basis-full shrink-0"
+                className=" basis-full text-slate-800 text-center xl:text-left shrink-0"
               >
-                <h3 className="secType">{slide.header}</h3>
-                <p className="firstType">{slide.content}</p>
+                <div className="flex flex-col gap-3 md:gap-5 ">
+                  <h3 className="secType">{slide.header}</h3>
+                  <p className="firstType">{slide.content}</p>
+                </div>
               </div>
             ))}
           </div>

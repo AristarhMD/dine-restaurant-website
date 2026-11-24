@@ -1,3 +1,4 @@
+import CTASection from "./mainpage/ctaSection";
 import HeroSection from "./mainpage/HeroSection";
 import MenuSection from "./mainpage/MenuSection";
 import Presentation from "./mainpage/Presentation";
@@ -10,6 +11,7 @@ function App() {
       <Presentation />
       <MenuSection />
       <SliderSection />
+      <CTASection />
     </>
   );
 }
