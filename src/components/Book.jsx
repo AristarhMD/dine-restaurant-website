@@ -1,3 +1,5 @@
+import Header from "./booking/Header";
+
 export default function Book() {
-  return <h1>TEST OF LINK</h1>;
+  return <Header />;
 }
