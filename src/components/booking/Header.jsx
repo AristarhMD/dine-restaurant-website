@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="relative w-full h-150 overflow-hidden flex items-start xl:px-[11.45%]">
+    <header className="relative w-full h-150  flex items-start xl:px-[11.45%]">
       <picture>
         <source
           media="(min-width: 1280px)"
